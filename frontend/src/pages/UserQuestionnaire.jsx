@@ -210,7 +210,7 @@ function UserQuestionnaire() {
         break;
     }
     if (msg) {
-      alert(msg + '\n\nOtherwise I can’t suggest the best poses for you.');
+      //alert(msg + '\n\nOtherwise I can’t suggest the best poses for you.');
       return;
     }
 
@@ -259,7 +259,7 @@ function UserQuestionnaire() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!formData.durationPreference || !formData.flexibilityLevel || !formData.preferredTime || !formData.energyLevel) {
-      alert('Please complete all required fields.\n\nOtherwise I can’t suggest the best poses.');
+     // alert('Please complete all required fields.\n\nOtherwise I can’t suggest the best poses.');
       return;
     }
     try {

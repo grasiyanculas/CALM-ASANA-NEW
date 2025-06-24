@@ -36,7 +36,7 @@ app.post('/api/getYogaSuggestions', async (req, res) => {
 
     // res.json("hello world")
 
-    res.json(response.data);
+    res.json(response.data);2
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: 'Failed to get Gemini AI response' });
